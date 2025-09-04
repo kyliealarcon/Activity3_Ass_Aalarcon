@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <meta name="description" content="Conoce a Arpad Kiss, programador especializado en diseño web y 
+    desarrollo de aplicaciones Android & iOS. Descubre sus proyectos y contáctalo para tu próximo proyecto.">
+    <meta name="keywords" content="Arpad Kiss, programador, diseño web, desarrollo Android, desarrollo 
+    iOS, programación de videojuegos, desarrollo de software, desarrollo de aplicaciones, Unity, C#, HTML, 
+    CSS, JavaScript, Python, Java, SQL, AWS, iOS, porfolio, portfolio, android">
+
+    <meta name="description" lang="en" content="Meet Arpad Kiss, a programmer specialized in web design and Android 
+    & iOS application development. Discover his projects and contact him for your next project.">
+    <meta name="keywords" lang="en" content="Arpad Kiss, programmer, web design, 
+    Android development, iOS development, software development, application development, 
+    Unity, C#, HTML, CSS, JavaScript, Python, Java, SQL, AWS, iOS, porfolio, portfolio, android">
+    <meta name="author" content="Arpad Kiss">
+    <meta name="google-site-verification" content="EZsArdOW1WqvDCzdcmmbrYyyImU8CkwAhuwsYk1Oi3Q" />
+    <!--Css para decoración de la página-->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Libreria para los iconos de RRSS y para swiper-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="./css/swiper.css" />
+    <title>Arpad Kiss</title>
+    <link rel="icon" href="./js/swiper.js">
+    <link rel="canonical" href="https://exluyt.github.io/Porfolio/">
+</head>
+
+<body>
+    <header class="header_wrapper">
+        <nav id="navbar">
+            <h1 class="logo">Arpad <span>Kiss</span></h1>
+            <ul id="nav">
+                <li><a id="navbar-home" href="#home">
+                        <p><span>Inicio</span></p>
+                    </a></li>
+                <li><a id="navbar-technologies" href="#technologies">
+                        <p><span>Tecnologías</span></p>
+                    </a></li>
+                <li><a id="navbar-projects" href="#projects">
+                        <p><span>Proyectos</span></p>
+                    </a></li>
+                <li><a id="navbar-education" href="#education">
+                        <p><span>Educación</span></p>
+                    </a></li>
+                <li><a id="navbar-contact" href="#contact">
+                        <p><span>Contáctame</span></p>
+                    </a></li>
+                <li data-language="es">
+                    <img src="img/es.svg" alt="Bandera de España" title="ESPAÑOL" class="flags" data-language="es"
+                        id="es-flag">
+                </li>
+                <li data-language="en">
+                    <img src="img/gb.svg" alt="Bandera de Reino Unido" title="ENGLISH" class="flags" data-language="en"
+                        id="uk-flag">
+                </li>
+            </ul>
+            <button class="bars" id="bars">
+                <i class="fa-solid fa-bars-staggered"></i>
+            </button>
+        </nav>
+    </header>
+    <main>
+        <section class="hero_wrapper" id="home">
+            <article class="hero">
+                <article class="hero_info">
+                    <h1 id="hero-hello">¡Hola, soy <span>Arpad Kiss!</span></h1>
+
+                    <h2 id="hero-typed">Soy <span id="element"></span></h2>
+                    <p id="hero-description"> Soy un programador con conocimientos en diseño web y
+                        desarrollo de Android y iOS.
+                        Además, apunto hacia nuevos horizontes como la programación de videojuegos.</p>
+                    </p>
+                    <article class="social_icons">
+                        <a id="linkedin-link" href="https://www.linkedin.com/in/arpad-kiss-dev/"
+                            aria-label="Mi perfil de linkedIn" target="_blank">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                        <a id="github-link" href="https://github.com/exluyt" aria-label="Mi perfil de GitHub"
+                            target="_blank">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                    </article>
+                    <article class="btns">
+                        <a id="resume-link" href="pdf/ArpadKiss_CV_programador.pdf" target="_blank">
+                            <button class="button" id="hero-resume">CV</button>
+                        </a>
+                        <a href="#contact">
+                            <button class="button" id="hero-contact">Contáctame</button>
+                        </a>
+                    </article>
+                </article>
+                <article class="hero_img">
+                    <img src="img/MiFotoPerfil.png" alt="" title="">
+                </article>
+            </article>
+        </section>
+
+        <div class="custom-shape-divider-bottom-1737395171">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
+                preserveAspectRatio="none" style="display: inline-block;">
+                <path id="scroll"
+                    d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z"
+                    opacity=".25" class="shape-fill"></path>
+                <path id="scroll"
+                    d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z"
+                    opacity=".5" class="shape-fill"></path>
+                <path
+                    d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z"
+                    class="shape-fill"></path>
+            </svg>
+        </div>
+
+        <div class="custom-shape-divider-top-1737395466">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
+                preserveAspectRatio="none" style="display: inline-block;">
+                <path
+                    d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+                    class="shape-fill"></path>
+            </svg>
+        </div>
+        <section>
+            <section class="technologies" id="technologies">
+                <h2 id="technologies-title">Tecnologías</h2>
+                <article class="technologies_cards">
+                    <article class="technologies_card">
+                        <h3 id="technologies-frontEnd">FRONT-END</h3>
+                        <p>
+                            <img src="img/HTML5.png" alt="Logo de HTML5" title="HTML5" width="15.5%">
+                            <img src="img/CSS3.png" alt="Logo de CSS" title="CSS" width="11%">
+                            <img src="img/JavaScript.png" alt="Logo de JavaScript" title="JAVASCRIPT" width="15%">
+                            <img src="img/python.png" alt="Logo de Python" title="Python" width="14%">
+                        </p>
+                    </article>
+                    <article class="technologies_card">
+                        <h3 id="technologies-backEnd">BACK-END</h3>
+                        <p>
+                            <img src="img/c.png" alt="Logo de C" title="C" width="15%">
+                            <img src="img/java.png" alt="Logo de Java" title="JAVA" width="9%">
+                        </p>
+                    </article>
+                    <article class="technologies_card">
+                        <h3 id="technologies-learning">APRENDIENDO</h3>
+                        <p>
+                            <img src="img/swift.webp" alt="Logo de Swift" title="Swift" width="15%">
+                            <img src="img/c.webp" alt="Logo de C#" title="C#" width="15%">
+                        </p>
+                    </article>
+                    <article class="technologies_card">
+                        <h3 id="technologies-tools">HERRAMIENTAS</h3>
+                        <p>
+                            <img src="img/Unity.png" alt="Logo de Unity" title="UNITY" width="15%">
+                            <img src="img/VS.png" alt="Logo de Visual Studio Code" title="VISUAL STUDIO CODE"
+                                width="16%">
+                            <img src="img/Git.png" alt="Logo de Git" title="GIT" width="15%">
+                            <img src="img/eclipse.png" alt="Logo de Eclipse" title="ECLIPSE" width="15%">
+                            <img src="img/IntelliJ_IDEA.png" alt="Logo de IntelliJ IDEA" title="INTELLIJ IDEA"
+                                width="15%">
+                            <img src="img/raider.png" alt="Logo de Raiderfas" title="RAIDER" width="15%">
+                        </p>
+                    </article>
+                </article>
+            </section>
+        </section>
+
+        <section>
+            <div class="project_main" id="projects">
+                <h2 id="projects-title">Proyectos</h2>
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="project_sec">
+                                <a href="https://github.com/exluyt/RutaSinBaches" target="_blank">
+                                    <img class="ruta" src="img/VentanaRSB.png" alt="Logo en letras"
+                                        title="RutaSinBaches">
+                                </a>
+                                <div class="project_user">
+                                    <div>
+                                        <h4>RutaSinBaches</h4>
+                                        <div class="icon-text">
+                                            <a href="https://github.com/exluyt/RutaSinBaches"
+                                                aria-label="Proyecto RutaSinBaches" target="_blank">
+                                                <i class="fa-brands fa-github codigo"></i>
+                                                <p class="code">Código</p>
+                                            </a>
+                                        </div>
+                                        <div class="lenguajes">
+                                            <p> Java </p>
+                                            <p> SQL </p>
+                                            <p> AWS </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p id="rsb">Aplicación para la gestión de denuncias de defectos en áreas urbanas,
+                                    facilitando su rápida reparación.</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="project_sec">
+                                <a href="https://exluyt.github.io/CineMagic/" target="_blank">
+                                    <img class="ruta" src="img/Cine.PNG" alt="Pagina principal de la web"
+                                        title="CineMagic">
+                                </a>
+                                <div class="project_user">
+                                    <div>
+                                        <h4>CineMagic</h4>
+                                        <div class="icon-text">
+                                            <a href="https://github.com/exluyt/CineMagic"
+                                                aria-label="Proyecto CineMagic" target="_blank">
+                                                <i class="fa-brands fa-github codigo"></i>
+                                                <p class="code">Código</p>
+                                            </a>
+                                        </div>
+                                        <div class="lenguajes">
+                                            <p> JavaScript </p>
+                                            <p> HTML </p>
+                                            <p> CSS </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p id="cine">Web para la visualización de información sobre películas</p>
+                                <p id="mini">*El carrusel de películas se mueve con las flechitas del teclado</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="project_sec">
+                                <a href="https://comunidadoverwatch.com" target="_blank">
+                                    <img class="ruta" src="img/galaxy.png" alt="Logo OverwatchGalaxy"
+                                        title="OverwatchGalaxy">
+                                </a>
+                                <div class="project_user">
+                                    <div>
+                                        <h4 id="galaxy-title">Bot de discord</h4>
+                                        <div class="icon-text">
+                                            <a href="https://github.com/exluyt/Desarrollo-OW2" aria-label="Bot discord"
+                                                target="_blank">
+                                                <i class="fa-brands fa-github codigo"></i>
+                                                <p class="code">Código</p>
+                                            </a>
+                                        </div>
+                                        <div class="lenguajes">
+                                            <p> Java </p>
+                                            <p> SQL </p>
+                                            <p> AWS </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p id="galaxy">Bot de discord para mejorar la experiencia del usuario en el servidor.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="project_sec">
+                                <a href="https://www.42madrid.com" target="_blank">
+                                    <img class="ruta" src="img/42Madrid.png" alt="Logo 42 Madrid" title="42 Madrid">
+                                </a>
+                                <div class="project_user">
+                                    <div>
+                                        <h4 id="fortytwo-title">Proyectos de 42</h4>
+                                        <div class="icon-text">
+                                            <a href="https://github.com/exluyt/42Madrid-C" aria-label="42 Madrud"
+                                                target="_blank">
+                                                <i class="fa-brands fa-github codigo"></i>
+                                                <p class="code">Código</p>
+                                            </a>
+                                        </div>
+                                        <div class="lenguajes">
+                                            <p> C </p>
+                                            <p> Makefile </p>
+                                            <p> Shell </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p id="fortytwo">Diversos proyectos en C sobre algoritmos, arquitectura, lógica, etc</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="project_sec">
+                                <a href="https://github.com/exluyt/PPTGame" target="_blank">
+                                    <img class="ruta" src="img/ppt.png" alt="Pantalla de inicio del juego"
+                                        title="Juego Piedra Papel Tijera">
+                                </a>
+                                <div class="project_user">
+                                    <div>
+                                        <h4 id="ppt-title">Piedra, papel y tijera con sockets</h4>
+                                        <div class="icon-text">
+                                            <a href="https://github.com/exluyt/PPTGame" aria-label="Piedra papel tijera"
+                                                target="_blank">
+                                                <i class="fa-brands fa-github codigo"></i>
+                                                <p class="code">Código</p>
+                                            </a>
+                                        </div>
+                                        <div class="lenguajes">
+                                            <p> Java </p>
+                                            <p> Swing </p>
+                                            <p> AWS </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p id="ppt">El juego de piedra papel y tijera realizado con sockets con opciones de
+                                    partidas públicas y privadas.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <article class="education" id="education">
+                <h2 id="education-title">Educación</h2>
+                <article class="timeline">
+                    <article class="timeline_box right">
+                        <span id="education-year-0">2023-Actualidad</span>
+                        <h3 id="education-title-0">Técnico Superior en Desarrollo de Aplicaciones Multiplataforma (UEM)
+                        </h3>
+                        <p id="education-description-0">Adquirí conocimientos de programación Back-End (Java) y
+                            Front-End (HTML5, CSS, JavaScript) y
+                            también una visión real del trabajo en la actualidad</p>
+                    </article>
+                    <article class="timeline_box left">
+                        <span id="education-year-1">2024-Actualidad</span>
+                        <h3 id="education-title-1">Ingeniería Informática, programación en C (42 Madrid)</h3>
+                        <p id="education-description-1">Un aprendizaje disruptivo en el que aprendo de mis compañeros a
+                            programar en C mientras
+                            mejoro en mis habilidades interpersonales ayudando al resto en sus proyectos</p>
+                    </article>
+                    <article class="timeline_box right">
+                        <span id="education-year-2">2024</span>
+                        <h3 id="education-title-2">OpenBootcamp</h3>
+                        <p id="education-description-2">A través de vídeos mejoré mis capacidades de pensamiento crítico
+                            en un bootcamp de desarrollo
+                            de videojuegos en Unity con C#</p>
+                    </article>
+                    <article class="timeline_box left">
+                        <span id="education-year-3">2021-2023</span>
+                        <h3 id="education-title-3">Bachillerato (I.E.S Narcís Monturiol)</h3>
+                        <p id="education-description-3">Rama de ciencias sociales que me otorgo capacidades de trabajo
+                            en equipo y trabajar bajo
+                            presión</p>
+                    </article>
+                </article>
+            </article>
+        </section>
+
+        <section>
+            <section class="contact" id="contact">
+                <h2 id="contact-title">Contácta<span>Me</span></h2>
+
+                <article class="contact_container">
+                    <article class="contact_detail">
+                        <h3 id="contact-subtitle">Contáctame</h3>
+                        <h4 id="contact-description">Si tienes alguna duda y/o quieres que forme parte de tu equipo ,
+                            puedes
+                            contactarme a través de estos medios:</h4>
+                        <article>
+                            <i class="fa-solid fa-map-pin" alt="Símbolo de chincheta para ubicación"
+                                title="UBICACIÓN"></i>
+                            <p class="size" id="spacemad">Madrid</p>
+                        </article>
+                        <article>
+                            <i class="fa-solid fa-phone" alt="Símbolo de teléfono" title="TELÉFONO"></i>
+                            <p>+34 672 89 09 24</p>
+                        </article>
+                        <article>
+                            <i class="fa-solid fa-envelope-open-text" alt="Simbolo de carta para correo electrónico"
+                                title="EMAIL"></i>
+                            <p>kissarpico22@gmail.com</p>
+                        </article>
+                    </article>
+                    <!--
+                    <form class="contact_form">
+                        <input type="text" placeholder="Nombre" required name="name" autocomplete="name"
+                            autocapitalize="words" id="contact-form-name">
+                        <input type="email" placeholder="Email" required name="email" autocomplete="email"
+                            id="contact-form-email">
+                        <input type="text" placeholder="Asunto" name="subject" id="contact-form-subject">
+                        <textarea name="message" cols="30" rows="10" placeholder="Mensaje"
+                            id="contact-form-message"></textarea>
+                        <button class="button" type="submit" id="contact-form-button">Envia mensaje</button>
+                    </form>
+                    -->
+                </article>
+            </section>
+        </section>
+    </main>
+    <div class="custom-shape-divider-bottom-1737395958">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" class="shape-fill"></path>
+        </svg>
+    </div>
+    <footer>
+        <section class="social_links">
+            <a href="https://www.linkedin.com/in/arpad-kiss-dev/" aria-label="Mi perfil de linkedIn" target="_blank">
+                <i class="fa-brands fa-linkedin"></i>
+            </a>
+            <a href="https://github.com/exluyt" aria-label="Mi perfil de GitHub" target="_blank">
+                <i class="fa-brands fa-github"></i>
+            </a>
+        </section>
+        <section class="links">
+            <a href="#home">
+                <p id="footer-home">Inicio</p>
+            </a>
+            <a href="#technologies">
+                <p id="footer-technologies">Tecnologías</p>
+            </a>
+            <a href="#projects">
+                <p id="footer-projects">Proyectos</p>
+                <a href="#education">
+                    <p id="footer-education">Educación</p>
+                </a>
+                <a href="#contact">
+                    <p id="footer-contact">Contáctme</p>
+                </a>
+        </section>
+        <p id="footer-createdBy"><span>Sitio</span> creado por <span>Arpad Kiss</span></p>
+        <p id="small">Creado con 💛</p>
+    </footer>
+
+    <!--Scripts (js) para diversas funcionalidades-->
+    <script src="./js/typed.js"></script>
+    <script src="./js/swiper.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
